@@ -40,7 +40,6 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     padding: 20px !important;
-    gap: 10px !important;
     height: 100vh;
 
     /* display: grid !important; */
