@@ -115,10 +115,14 @@ body {
     width: 40px;
     height: 40px;
     background-color: #FFFF2D;
-    text-align: center;
+    text-align: center ;
     transition: .1s;
     border-radius: 50px;
-
+    display: flex;
+    justify-content: center !important;
+    align-items: center;
+    font-size: 1.8rem;
+    color: #2F3129;
 }
 
 .links a i {

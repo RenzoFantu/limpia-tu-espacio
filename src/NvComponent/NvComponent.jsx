@@ -16,16 +16,16 @@ function NvComponent() {
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav
-            className=" my-2 my-lg-0"
+            className=" my-4 my-lg-0"
             style={{ maxHeight: '100px' }}
-            navbarScroll
+            
           >
             <Nav.Link as ={Link} to = '/'>Home</Nav.Link>
             <Nav.Link as ={Link} to = '/Nosotros'>Nosotros</Nav.Link>
             <Nav.Link as ={Link} to = '/Contactanos'>Contáctanos</Nav.Link>
           </Nav>
           
-            <Button variant="outline-success">Contáctanos</Button>
+            <Button variant="outline-success">Mi Espacio</Button>
           
         </Navbar.Collapse>
       </Container>

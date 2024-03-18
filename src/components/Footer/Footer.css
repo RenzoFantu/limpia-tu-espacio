@@ -66,12 +66,14 @@
     text-align: center;
     line-height: 40px;
     border-radius: 50%;
-    color: black !important;
+    color: #2F3129 !important;
+    font-size: 1.8rem;
 
 }
 
+
 .social-link a:hover {
-    background-color: rgb(224, 224, 224);
+    background-color:#c4c423;
 }
 
 @media (max-width: 768px) {
