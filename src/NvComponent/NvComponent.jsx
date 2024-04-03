@@ -17,7 +17,7 @@ function NvComponent() {
         <Navbar.Collapse id="navbarScroll">
           <Nav
             className=" my-4 my-lg-0"
-            style={{ maxHeight: '100px' }}
+            style={{ maxHeight: '100px',  }}
             
           >
             <Nav.Link as ={Link} to = '/'>Home</Nav.Link>

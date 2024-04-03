@@ -28,12 +28,21 @@
 }
 .container-fluid{
  justify-content:space-between !important;
+ background-color: #FFFF2D;
 }
 .navbar-collapse{
    
     
     flex-direction: row !important;
+    background-color: #FFFF2D;
 
+}
+.navbar-toggler-icon{
+    background-color: #FFFF2D;
+}
+.navbar-toggler{
+    background-color: #FFFF2D !important;
+    border: 0;
 }
 @media (max-width:990px ){
     .navbar-collapse{
@@ -43,6 +52,9 @@
 .my-2{
     align-items: right !important;
     
+}
+.my-4{
+    font-weight: bold;
 }
 
 

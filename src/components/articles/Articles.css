@@ -8,9 +8,10 @@
     justify-content: space-around;
     /* position:relative; */
     transition: 0.5s;
-    background-color: #2F3129;
+    background-color: white;
+    color: black;
     flex-wrap: wrap;
-    padding: 40px 0 40px 0;
+    padding: 30px;
 
 }
 
@@ -18,24 +19,30 @@
 
 .text-video{
     
-        width: 50vh;
-        background-color: #2F3129;
-        color: #FFFF2D;
+        width: 70vh;
+        background-color: white;
+        color: black;
+        text-align: justify;
+        
         
     
 }
-p{
-    margin-bottom: 40px !important;
+.miVideo p{
+    margin: 0 !important;
+    text-align: justify;
+    font-size: 1.2rem;
+    
 }
 .video-bg{
-    width: 40vh;
-    height: 40vh;
+    width: 100vh;
+    height: 50vh;
     border-radius: 30px;
     /* position: absolute; */
+    margin-bottom: 30px;
     top: 0;
     z-index: -1;
     object-fit: cover;
-    margin-bottom: 40px;
+    
 }
 .miVideo2{
     width: 100%;
@@ -46,23 +53,36 @@ p{
     justify-content: space-around;
     /* position:relative; */
     transition: 0.5s;
-    background-color: #FFFF2D;
+    background-color: white;
     flex-wrap: wrap;
-    padding: 40px 0 40px 0;
+    padding: 30px;
+   
 
+}
+.miVideo2 p{
+    margin: 30px;
+    text-align: justify;
+    font-size: 1.2rem;
+    margin: 0;
+    padding-bottom: 30px;
+    
 }
 
 
 
 .text-video2{
     
-    width: 50vh;
-    background-color: #FFFF2D;
-    color: #2F3129
+    width: 70vh;
+        background-color: white;
+        color: black;
+        text-align: justify;
+        
+
     
     
     
 }
+
 
 @media (max-width:867px) {
     .text-video2 {
